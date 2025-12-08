@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Scrapbook Portfolio - Contact</title>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Caveat:wght@400;600;700&family=Architects+Daughter&family=Indie+Flower&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="corner-decoration corner-tl"></div>
+    <div class="corner-decoration corner-tr"></div>
+    <div class="corner-decoration corner-bl"></div>
+    <div class="corner-decoration corner-br"></div>
+
+    <div class="washi-tape washi-1" style="--rotation: -8deg;"></div>
+    <div class="washi-tape washi-2" style="--rotation: 6deg;"></div>
+    <div class="washi-tape washi-3" style="--rotation: -10deg;"></div>
+    <div class="washi-tape washi-4" style="--rotation: 9deg;"></div>
+    <div class="washi-tape washi-5" style="--rotation: -7deg;"></div>
+    <div class="washi-tape washi-6" style="--rotation: -6deg;"></div>
+    <div class="washi-tape washi-7" style="--rotation: 12deg;"></div>
+    <div class="washi-tape washi-8" style="--rotation: -11deg;"></div>
+
+    <div class="paper-clip clip-1" style="--clip-rotation: -18deg;"></div>
+    <div class="paper-clip clip-2" style="--clip-rotation: 22deg;"></div>
+    <div class="paper-clip clip-3" style="--clip-rotation: -15deg;"></div>
+    <div class="paper-clip clip-4" style="--clip-rotation: 18deg;"></div>
+
+    <div class="push-pin pin-1"></div>
+    <div class="push-pin pin-2"></div>
+    <div class="push-pin pin-3"></div>
+    <div class="push-pin pin-4"></div>
+    <div class="push-pin pin-5"></div>
+
+    <div class="sticker sticker-star"></div>
+    <div class="sticker sticker-heart"></div>
+    <div class="sticker sticker-circle"></div>
+    <div class="sticker sticker-cloud"></div>
+    <div class="sticker sticker-flower"></div>
+    <div class="sticker sticker-moon"></div>
+
+    <div class="floating-polaroid fpol-1" style="--pol-rotation: -12deg;">
+        <div class="floating-polaroid-inner">
+            <span>first<br>interactive page</span>
+        </div>
+    </div>
+    <div class="floating-polaroid fpol-2" style="--pol-rotation: 8deg;">
+        <div class="floating-polaroid-inner">
+            <span>dreamy<br>collab project</span>
+        </div>
+    </div>
+    <div class="floating-polaroid fpol-3" style="--pol-rotation: -7deg;">
+        <div class="floating-polaroid-inner">
+            <span>sound, story<br>& movement</span>
+        </div>
+    </div>
+
+    <div class="sticky-note note-1" style="--note-rotation: 6deg;">about<br>me</div>
+    <div class="sticky-note note-2" style="--note-rotation: -8deg;">my<br>projects</div>
+    <div class="sticky-note note-3" style="--note-rotation: 4deg;">get in<br>touch</div>
+
+    <div class="confetti confetti-1"></div>
+    <div class="confetti confetti-2"></div>
+    <div class="confetti confetti-3"></div>
+    <div class="confetti confetti-4"></div>
+    <div class="confetti confetti-5"></div>
+    <div class="confetti confetti-6"></div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">About Me</a></li>
+            <li><a href="project.html">My Projects</a></li>
+            <li><a href="contact.html">Get in Touch</a></li>
+        </ul>
+    </nav>
+
+    <div class="page active" id="contact">
+        <div class="contact-container">
+            <h1>Let's Connect</h1>
+            <form class="contact-form" onsubmit="handleSubmit(event)">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" required placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" required placeholder="your.email@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" required placeholder="Tell me what you think about my projects"></textarea>
+                </div>
+                <button type="submit" class="submit-btn">SEND MESSAGE</button>
+            </form>
+            <div class="social-links">
+                <a href="#">LinkedIn</a>
+                <a href="#">GitHub</a>
+                <a href="#">Email</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
